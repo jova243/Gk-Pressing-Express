@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GK Pressing Express - Service professionnel de nettoyage à sec et repassage à domicile avec livraison rapide">
+    <meta name="keywords" content="pressing, nettoyage à sec, repassage, livraison, vêtements, linge">
+    <meta name="author" content="GK Pressing Express">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="logo.jpeg">
+    <title>GK Pressing Express : Pressing, Nettoyage et Repassage à domicile </title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-area">
+                <img src="logo.jpeg" alt="GK Pressing Express" class="logo">
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="nav" id="nav">
+                <a href="#accueil" class="nav-link active">Accueil</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#apropos" class="nav-link">À propos</a>
+                <a href="#videos" class="nav-link">Vidéos</a>
+                <a href="#tarifs" class="nav-link">Tarifs</a>
+                <a href="#avis" class="nav-link">Avis clients</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="https://wa.me/243812187991" class="btn whatsapp nav-btn">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </nav>
+        </div>
+    </header>
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">GK Pressing Express</h1>
+                <h2 class="hero-subtitle">Votre partenaire de confiance pour le nettoyage et le repassage</h2>
+                <p class="hero-text">Nous prenons soin de vos vêtements comme si c'étaient les nôtres. Service professionnel, livraison rapide à domicile et résultats impeccables.</p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/243812187991" class="btn whatsapp">
+                        <i class="fab fa-whatsapp"></i> Réservez maintenant
+                    </a>
+                    <a href="#services" class="btn secondary">Découvrir nos services</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="grady.jpeg" alt="Service de pressing professionnel">
+            </div>
+        </div>
+    </section>
+
+    <section class="avantages">
+        <div class="container">
+            <h2 class="section-title">Pourquoi nous choisir ?</h2>
+            <div class="avantages-grid">
+                <div class="avantage-card">
+                    <div class="avantage-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Livraison gratuite</h3>
+                    <p>Enlèvement et retour de vos vêtements directement à votre domicile ou bureau.</p>
+                </div>
+                <div class="avantage-card">
+                    <div class="avantage-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Service express</h3>
+                    <p>Réception de vos vêtements nettoyés en moins de 48 heures pour la plupart des articles.</p>
+                </div>
+                <div class="avantage-card">
+                    <div class="avantage-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Qualité garantie</h3>
+                    <p>Nous utilisons des produits de haute qualité et des techniques professionnelles.</p>
+                </div>
+                <div class="avantage-card">
+                    <div class="avantage-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Prix abordables</h3>
+                    <p>Nos tarifs sont compétitifs et adaptés à tous les budgets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Nos Services</h2>
+            <p class="section-subtitle">Nous offrons une gamme complète de services de nettoyage pour répondre à tous vos besoins</p>
+            
+            <div class="service-list">
+                <div class="service-card" onclick="showService('nettoyage')">
+                    <div class="service-image">
+                        <img src="lavage.jpeg" alt="Nettoyage à sec">
+                        <div class="service-overlay">Cliquez pour détails</div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Nettoyage à sec</h3>
+                        <p>Nettoyage professionnel pour vos vêtements délicats qui ne peuvent pas être lavés à l'eau.</p>
+                        <div class="service-features">
+                            <span><i class="fas fa-check"></i> Livraison à domicile</span>
+                            <span><i class="fas fa-check"></i> Tissus délicats</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card" onclick="showService('repassage')">
+                    <div class="service-image">
+                        <img src="Repassage.jpeg" alt="Repassage à domicile">
+                        <div class="service-overlay">Cliquez pour détails</div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Repassage à domicile</h3>
+                        <p>Service de repassage professionnel à votre domicile pour un look impeccable.</p>
+                        <div class="service-features">
+                            <span><i class="fas fa-check"></i> Fer à vapeur</span>
+                            <span><i class="fas fa-check"></i> Formule mensuelle</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="service-details" id="service-details">
+                <div class="service-details-content">
+                    <p>Cliquez sur un service pour voir les détails et les tarifs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="apropos" class="apropos">
+        <div class="container">
+            <div class="apropos-content">
+                <h2 class="section-title">À propos de GK Pressing Express</h2>
+                <p>Fondé en 2024 par Mr Grady Kambala, GK Pressing Express s'est rapidement imposé comme le service de pressing de référence dans la région. Notre mission est simple : offrir un service de nettoyage de qualité supérieure, rapide et fiable, en respectant l'environnement et la santé de nos clients.</p>
+                <p>Nous utilisons des produits de nettoyage écologiques et des techniques modernes pour préserver la qualité de vos vêtements tout en respectant l'environnement. Notre équipe de professionnels expérimentés prend soin de chaque article comme s'il lui appartenait.</p>
+                <div class="apropos-stats">
+                    <div class="stat">
+                        <h3>1+</h3>
+                        <p>Années d'expérience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Clients satisfaits à kinshasa</p>
+                    </div>
+                    <div class="stat">
+                        <h3>48h</h3>
+                        <p>Délai moyen de livraison</p>
+                    </div>
+                </div>
+            </div>
+            <div class="apropos-image">
+                <img src="apropos.jpeg" alt="Équipe GK Pressing Express">
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="videos" class="videos" >
+        <div class="container">
+            <h2 class="section-title">Notre Savoir-Faire en Vidéo</h2>
+            <p class="section-subtitle">Découvrez notre processus de travail et la qualité de nos services</p>
+                
+                <div class="video-card">
+                    <div class="video-container">
+                        <video class="service-video"autoplay muted >
+                            <source src="domicile.mp4" type="video/mp4" autoplay muted >
+                            Votre navigateur ne supporte pas la vidéo.
+                        </video>
+                        <div class="video-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Service de Repassage à Domicile</h3>
+                        <p>Regardez notre équipe en action, apportant un repassage parfait directement chez vous.</p>
+                        <div class="video-duration"></div>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-container">
+                        <video class="service-video" controls poster="https://images.unsplash.com/photo-1582735689369-4fe89db7114c">
+                            <source src="livraison.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la vidéo.
+                        </video>
+                        <div class="video-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Notre Service de Livraison</h3>
+                        <p>Voyez comment nous gérons la collecte et la livraison de vos vêtements avec ponctualité.</p>
+                        <div class="video-duration"></div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="videos-cta">
+                <p>Vous souhaitez voir d'autres aspects de notre travail ?</p>
+                <a href="https://wa.me/243812187991" class="btn whatsapp">
+                    <i class="fab fa-whatsapp"></i> Veillez nous contacter
+                </a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="tarifs" class="tarifs">
+        <div class="container">
+            <h2 class="section-title">Nos Tarifs</h2>
+            <p class="section-subtitle">Des tarifs transparents et compétitifs pour tous vos besoins de nettoyage</p>
+            
+            <div class="tarifs-grid">
+                <div class="tarif-card">
+                    <div class="tarif-header">
+                        <h3>Service Standard</h3>
+                        <div class="tarif-price">À partir de <span>8 000 fc</span></div>
+                    </div>
+                    <ul class="tarif-features">
+                        <li><i class="fas fa-check"></i> Nettoyage à sec par article</li>
+                        <li><i class="fas fa-check"></i> Repassage simple (Chemises, Vestes, Robes ,Pantalons, Couvertures, etc.)</li>
+                        <li><i class="fas fa-check"></i> Délai de 48h</li>
+                        <li><i class="fas fa-check"></i> Livraison standard</li>
+                    </ul>
+                    <a href="https://wa.me/243812187991" class="btn tarif-btn">
+                        <i class="fab fa-whatsapp"></i> Demander un devis
+                    </a>
+                </div>
+                
+                <div class="tarif-card featured">
+                    <div class="tarif-badge">Populaire</div>
+                    <div class="tarif-header">
+                        <h3>Formule Mensuelle</h3>
+                        <div class="tarif-price">30 $ <span>/ mois</span></div>
+                    </div>
+                    <ul class="tarif-features">
+                        <li><i class="fas fa-check"></i> Repassage à domicile (5 passages/mois)</li>
+                        <li><i class="fas fa-check"></i> Fer à vapeur professionnel inclus</li>
+                        <li><i class="fas fa-check"></i> Parfum textile longue durée</li>
+                        <li><i class="fas fa-check"></i> Désinfectant contre les insectes</li>
+                    </ul>
+                    <a href="https://wa.me/243812187991" class="btn tarif-btn featured-btn">
+                        <i class="fab fa-whatsapp"></i> Souscrire maintenant
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="avis" class="avis">
+        <div class="container">
+            <h2 class="section-title">Ce que disent nos clients</h2>
+            <p class="section-subtitle">Nos clients nous font confiance pour la qualité de nos services</p>
+            
+            <div class="avis-grid">
+                <div class="avis-card">
+                    <div class="avis-header">
+                        <div class="avis-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="avis-date">16 Janvier 2025</div>
+                    </div>
+                    <p class="avis-text">"Merci à GK Pressing pour leur travail de qualité. c'est un service qui me facilite vraiment la vie:ponctualité, propreté et professionnalisme.Continuez ainsi"</p>
+                    <div class="avis-author">
+                        <div class="author-name">Mdm Joelle</div>
+                        <div class="author-location">Joli parc</div>
+                    </div>
+                </div>
+                
+                <div class="avis-card">
+                    <div class="avis-header">
+                        <div class="avis-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="avis-date">10 Octobre 2025</div>
+                    </div>
+                    <p class="avis-text">"La formule mensuelle de repassage à domicile a changé ma vie ! Plus besoin de passer des heures à repasser. Service professionnel et fiable."</p>
+                    <div class="avis-author">
+                        <div class="author-name">Dorcas M.</div>
+                        <div class="author-location">Mont ngafula</div>
+                    </div>
+                </div>
+                
+                <div class="avis-card">
+                    <div class="avis-header">
+                        <div class="avis-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="avis-date">05 Decembre 2025</div>
+                    </div>
+                    <p class="avis-text">"C'est la meilleur de pressing selon moi et aujourd'hui ils ont un service de repassage à domicile ,depuis que je me suis abonnée tout mes vetements sont toujours propres et bien repassé .Merci à GK pressing"</p>
+                    <div class="avis-author">
+                        <div class="author-name">Mdm Christelle</div>
+                        <div class="author-location">Ngaliema</div>
+                    </div>
+                </div>
+
+                <div class="avis-card">
+                    <div class="avis-header">
+                        <div class="avis-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="avis-date">06 juin 2025</div>
+                    </div>
+                    <p class="avis-text">"Je suis très satisfaite de GK Pressing . Les délais sont respectés , les vetements sont traités avec soin et le service client est sérieux.Un pressing fiable que je recommande sans hésiter. "</p>
+                    <div class="avis-author">
+                        <div class="author-name">Mdm Magali</div>
+                        <div class="author-location">Binza pigeon</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-nous</h2>
+            <p class="section-subtitle">Nous sommes à votre écoute pour répondre à toutes vos questions</p>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Téléphone</h3>
+                            <p>+243 812 187 991</p>
+                            <p>Lun - Dim: 24/24</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>Gradykambala@gmail. Com</p>
+                            <p>Réponse sous 24h</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>WhatsApp</h3>
+                            <p>+243 812 187 991</p>
+                            <p>Réponse rapide</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Zone de service</h3>
+                            <p>Partout à Kinshasa</p>
+                            <p>Livraison à domicile gratuite</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Envoyez-nous un message</h3>
+                    <form id="messageForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Votre téléphone" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" placeholder="Votre message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn submit-btn">
+                            <i class="fas fa-paper-plane"></i> Envoyer le message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+
+    <div class="footer-content">
+
+        <div class="footer-logo">
+            <h3>Suivez-nous sur les réseaux sociaux</h3>
+            <p>Pour en savoir plus sur notre entreprise</p>
+
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/1SGJarWahJ/?mibextid=wwXIfr" target="_blank">
+                    <i class="fab fa-facebook-f icon-facebook"></i>
+                    <span class="social-text">Facebook</span>
+                </a>
+
+                <a href="https://www.instagram.com/gryndywalker?igsh=ZXQwdDkzZDFlaDdz&utm_source=qr" target="_blank">
+                    <i class="fab fa-instagram icon-instagram"></i>
+                    <span class="social-text">Instagram</span>
+                </a>
+
+                <a href="https://wa.me/243812187991" target="_blank">
+                    <i class="fab fa-whatsapp icon-whatsapp"></i>
+                    <span class="social-text">WhatsApp</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <h4>Liens rapides</h4>
+            <a href="#accueil">Accueil</a>
+            <a href="#services">Services</a>
+            <a href="#videos">Vidéos</a>
+            <a href="#tarifs">Tarifs</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-services">
+            <h4>Nos services</h4>
+            <a href="#services" onclick="showService('nettoyage')">Nettoyage à sec</a>
+            <a href="#services" onclick="showService('repassage')">Repassage à domicile</a>
+        </div>
+
+        <div class="footer-contact">
+            <h4>Contact</h4>
+            <p><i class="fas fa-phone-alt"></i> +243 812 187 991</p>
+            <p><i class="fas fa-envelope"></i> Gradykambala@gmail. Com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Kinshasa, RDC</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2025 GK Pressing Express. Tous droits réservés.</p>
+        <span>Conçu par : Jovanimbombo00@gmail.com</span>
+    </div>
+
+</footer>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
