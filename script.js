@@ -32,13 +32,12 @@ function showService(service) {
                 <h3>🧼 Nettoyage à sec</h3>
                 <p>Notre service de nettoyage à sec professionnel est spécialement conçu pour les vêtements délicats qui nécessitent un traitement spécial. Nous utilisons des solvants doux qui nettoient en profondeur sans endommager les tissus.</p>
                 <div class="details-list">
-                    <h4>Ce service comprend :</h4>
+                    <h4>🚚Sans vous déplacer, nous venons vers vous :</h4>
                     <ul>
-                        <li><i class="fas fa-check-circle"></i> Enlèvement et livraison à domicile</li>
+                        <li><i class="fas fa-check-circle"></i> Nous récupérons vos vêtements</li>
+                        <li><i class="fas fa-check-circle"></i> Nous vous les livrons sous 48 heures, en toute sécurité, avec assurance qualité.</li>
                         <li><i class="fas fa-check-circle"></i> Respect total des tissus et des couleurs</li>
                         <li><i class="fas fa-check-circle"></i> Nettoyage professionnel et hygiénique</li>
-                        <li><i class="fas fa-check-circle"></i> Livraison garantie sous 48 heures</li>
-                        <li><i class="fas fa-check-circle"></i> Inspection et prétraitement des taches</li>
                         <li><i class="fas fa-check-circle"></i> Emballage protecteur pour le transport</li>
                     </ul>
                 </div>
@@ -65,25 +64,31 @@ function showService(service) {
             <div class="service-details-content">
                 <button class="close-details" onclick="closeDetails()"><i class="fas fa-times"></i></button>
                 <h3>Repassage à domicile</h3>
-                <p>Notre service de repassage à domicile vous libère du temps tout en garantissant un résultat impeccable. Nos professionnels utilisent un équipement de haute qualité pour un repassage parfait.</p>
+                <p>Notre service de repassage à domicn résultat impeccable. Nos professionnels utilisent un équipement de haute qualité pour un repassage parfait.</p>
                 <div class="details-list">
                     <h4>Ce service comprend :</h4>
                     <ul>
                         <li><i class="fas fa-check-circle"></i> Fer à vapeur professionnel fourni</li>
                         <li><i class="fas fa-check-circle"></i> Parfum textile longue durée</li>
-                        <li><i class="fas fa-check-circle"></i> Désinfectant contre les insectes</li>
                         <li><i class="fas fa-check-circle"></i> Service propre et élégant à domicile</li>
                         <li><i class="fas fa-check-circle"></i> Repassage adapté à chaque type de tissu</li>
                         <li><i class="fas fa-check-circle"></i> Pliage soigné des vêtements repassés</li>
                     </ul>
                 </div>
                 <div class="details-pricing">
-                    <h4>Formules disponibles :</h4>
+                    <h4>Nos formules avantageuses :</h4>
                     <ul>
-                        <li><strong>Formule mensuelle : 30 $ (1 passage chaque semaine et 2 passage la dernière semaine du mois)</strong></li>
-                        <li>Forfait 8 passages : 50 $</li>
+                        <li><strong>Formule mensuelle : 30 $ </strong></li>
+                        <li><i class="fas fa-check-circle"></i> 5 passages par mois</li>
+                        <li><i class="fas fa-check-circle"></i> 1 passage chaque semaine</li>
+                        <li><i class="fas fa-check-circle"></i> 2 passages la dernière semaine</li>
+                        <p>Des vêtements toujours propres et bien entretenus,sans stress</p>
+                        <li><strong>👕Formule Premium 50$/mois </strong></li>
+                        <li><i class="fas fa-check-circle"></i> 8 passages par mois</li>
+                        <li><i class="fas fa-check-circle"></i> 2 passages par semaine</li>
+                        <p>Le choix idéal pour une propreté impeccable et un service prioritaire</p>    
                     </ul>
-                    <p><em>Un passage = repassage d'un panier standard de vêtements (environ 5 kg).</em></p>
+                    <p><em>Un passage = repassage d'un panier standard de vêtements .</em></p>
                 </div>
                 <a href="https://wa.me/243812187991" class="btn whatsapp details-btn">
                     <i class="fab fa-whatsapp"></i> Réserver ce service
@@ -281,4 +286,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
