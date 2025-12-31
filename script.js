@@ -34,7 +34,7 @@ function showService(service) {
                 <div class="details-list">
                     <h4>Ce service comprend :</h4>
                     <ul>
-                        <li><i class="fas fa-check-circle"></i> Enlèvement et livraison gratuite à domicile</li>
+                        <li><i class="fas fa-check-circle"></i> Enlèvement et livraison à domicile</li>
                         <li><i class="fas fa-check-circle"></i> Respect total des tissus et des couleurs</li>
                         <li><i class="fas fa-check-circle"></i> Nettoyage professionnel et hygiénique</li>
                         <li><i class="fas fa-check-circle"></i> Livraison garantie sous 48 heures</li>
@@ -281,3 +281,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
