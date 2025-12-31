@@ -79,13 +79,13 @@ function showService(service) {
                     <h4>Nos formules avantageuses :</h4>
                     <ul>
                         <li><strong>Formule mensuelle : 30 $ </strong></li>
-                        <li><i class="fas fa-check-circle"></i> 5 passages par mois</li>
-                        <li><i class="fas fa-check-circle"></i> 1 passage chaque semaine</li>
-                        <li><i class="fas fa-check-circle"></i> 2 passages la dernière semaine</li>
+                        <li>5 passages par mois</li>
+                        <li>1 passage chaque semaine</li>
+                        <li>2 passages la dernière semaine</li>
                         <p>Des vêtements toujours propres et bien entretenus,sans stress</p>
                         <li><strong>👕Formule Premium 50$/mois </strong></li>
-                        <li><i class="fas fa-check-circle"></i> 8 passages par mois</li>
-                        <li><i class="fas fa-check-circle"></i> 2 passages par semaine</li>
+                        <li>8 passages par mois</li>
+                        <li>2 passages par semaine</li>
                         <p>Le choix idéal pour une propreté impeccable et un service prioritaire</p>    
                     </ul>
                     <p><em>Un passage = repassage d'un panier standard de vêtements .</em></p>
@@ -286,5 +286,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
 
 
